@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+}
+section
+{
+    position: relative;
+    min-height: 100vh;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:100px;
+    background:radial-gradient(#25378d,#ed549a);
+}
+header
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    position:relative;
+    max-width: 100px;
+}
+header ul
+{
+    position:relative;
+    display:flex;
+}
+header ul li
+{
+    list-style: none;
+}
+header ul li a
+{
+    display: inline-block;
+    color:#12095A;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+header a:hover
+{
+    text-decoration: underline darkblue 3px;
+    transform: translateY(-5px);
+    text-shadow: 0 0 10px rgb(11, 138, 216);
+}
+.content
+{
+    position:relative;
+    width: 100%;
+    background: radial-gradient(#25378d,#ed549a);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content video
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    opacity: 0.15;
+    pointer-events: none;
+}
+.textbox
+{
+    position:relative;
+    max-width: 1000px;
+    align-items: center;
+}
+.textbox h3
+{
+    color: white;
+    font-size: 3em;
+    line-height: 1.4em;
+    font-weight: 600px;
+    margin: 0 0 8px 5px;
+}
+.textbox h3 span
+{
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+.textbox h3 span1
+{
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+.textbox h3 span2
+{
+    color: lightgreen;
+    text-shadow: 0 0 10px lightgreen;
+}
+.textbox h4
+{
+    color:lightskyblue;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 300px; 
+    margin: 0 0 0 5px;   
+}
+.textbox h4 span
+{
+    color:orange;
+    text-shadow: 0 0 10px orange;
+}
+.textbox h4 span1
+{
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+.textbox h4 span2
+{
+    color:lightgreen;
+    text-shadow: 0 0 10px lightgreen;
+}
+.textbox h4 span4
+{
+    color: darkblue;
+}
+.textbox li
+{
+    margin: 0 0 0 5px;
+    color:darkturquoise ;
+    font-size: 1.13em;
+}
+.textbox a
+{
+    position: relative;
+    display: inline-block;
+    margin: 8px 10px 8px 5px;
+    padding: 8px 20px;
+    background:darkblue;
+    color:lightskyblue;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    overflow: hidden;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.textbox a:hover
+{
+    color:darkblue;
+    background:rgb(11, 138, 216);
+    box-shadow:0 0 10px rgb(11, 138, 216), 0 0 40px rgb(11, 138, 216), 0 0 10px rgb(11, 138, 216);
+}
+.sci
+{
+    position: absolute;
+    top:50%;
+    right:30px;
+    transform:translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sci li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sci li:hover
+{
+    transform: translateY(-15px);
+}
+.sci li a
+{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+}
+
